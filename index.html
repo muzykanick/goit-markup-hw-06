@@ -27,6 +27,15 @@
           <a href="./index.html" class="logo"
             >Web<span class="accent">Studio</span>
           </a>
+          <button
+            class="btn-burger"
+            type="button"
+            aria-label="Open menu button"
+          >
+            <svg class="btn-burger-icon" width="24" height="24">
+              <use href="./images/icons.svg#iconburgerbtn"></use>
+            </svg>
+          </button>
           <ul class="site-nav">
             <li><a class="link current" href="./index.html">Studio</a></li>
             <li><a href="" class="link">Portfolio</a></li>
@@ -58,7 +67,7 @@
         </div>
       </section>
       <!--Section 2-->
-      <section class="section">
+      <section class="section hide">
         <div class="container">
           <h2 class="visually-hidden">Features</h2>
           <ul class="features-list">
@@ -413,7 +422,7 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer hide">
       <div class="container div-footer">
         <div class="div-footer-container">
           <a class="logo-footer" href="./index.html"
@@ -503,7 +512,6 @@
               </svg>
             </div>
           </div>
-
           <div class="form-wrapper">
             <label class="form-lable" for="telephone"> Phone</label>
             <div class="form-field">
@@ -518,7 +526,6 @@
               </svg>
             </div>
           </div>
-
           <div class="form-wrapper">
             <label class="form-lable" for="email-address"> Email</label>
             <div class="form-field">
@@ -533,7 +540,6 @@
               </svg>
             </div>
           </div>
-
           <div class="form-text-input">
             <label class="form-lable" for="user-comment">Comment</label>
             <textarea
@@ -544,7 +550,6 @@
               placeholder="Text input"
             ></textarea>
           </div>
-
           <div class="form-agreement-main">
             <input
               id="user-privacy"
@@ -563,10 +568,70 @@
               <a class="form-agreement-link" href="">Privacy Policy</a>
             </label>
           </div>
-
           <button class="button" type="button">Send</button>
         </form>
       </div>
+    </div>
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+      <button class="mobile-menu-btn" type="button">
+        <svg class="mobile-menu-btn-icon" width="8" height="8">
+          <use href="./images/icons.svg#iconxblack"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu-list">
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link current" href="">Studio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link" href="">Portfolio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link" href="">Contacts</a>
+        </li>
+      </ul>
+      <ul class="mobile-menu-contacts">
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-contact tone" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-contact" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="mobile-menu-socials icon-list-mobile">
+        <li class="icon-footer">
+          <a class="footer-link" href="https://www.instagram.com/">
+            <svg class="icon-social" width="24" height="24">
+              <use href="./images/icons.svg#iconinstagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="icon-footer">
+          <a class="footer-link" href="https://www.twitter.com/">
+            <svg class="icon-social" width="24" height="24">
+              <use href="./images/icons.svg#icontwitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="icon-footer">
+          <a class="footer-link" href="https://www.facebook.com/">
+            <svg class="icon-social" width="24" height="24">
+              <use href="./images/icons.svg#iconfacebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="icon-footer">
+          <a class="footer-link" href="https://www.linkedin.com/">
+            <svg class="icon-social" width="24" height="24">
+              <use href="./images/icons.svg#iconlinkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
