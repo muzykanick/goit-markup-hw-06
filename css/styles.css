@@ -6,6 +6,8 @@
 
 img {
     display: block;
+    width: 100%;
+    height: auto;
 }
 
 h1,
@@ -660,7 +662,7 @@ p {
     background-color: #F4F4FD;
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px;
     justify-content: center;
 
 
@@ -799,6 +801,7 @@ p {
     transition-property: box-shadow;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
     width: 100%;
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 
 }
 
@@ -871,8 +874,8 @@ p {
     margin-bottom: 16px; */
 
     padding-top: 96px;
-        padding-bottom: 96px;
-        background-color: #2E2F42;
+    padding-bottom: 96px;
+    background-color: #2E2F42;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -894,9 +897,9 @@ p {
     /* display: flex;
     align-items: baseline; */
     display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        gap: 72px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 72px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -915,7 +918,7 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1157.98px) {
-    .div-footer{
+    .div-footer {
         padding: 0 108px;
     }
 }
@@ -1014,12 +1017,12 @@ p {
 
 @media only screen and (max-width: 768px) {
     .footer-wrapper {
-        
+
         align-items: center;
         display: flex;
-            flex-wrap: wrap;
-            gap: 16 px;
-            justify-content: center;
+        flex-wrap: wrap;
+        gap: 16 px;
+        justify-content: center;
 
     }
 }
@@ -1046,7 +1049,7 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
-    .footer-wrapper{
+    .footer-wrapper {
         margin-right: auto;
     }
 }
@@ -1065,21 +1068,21 @@ p {
 
     display: flex;
     align-items: center;
-     
-        
+
+
 }
 
 @media only screen and (max-width: 768px) {
-.subscribe-form {
-    display: block;
-    align-items: center;
-    
-  }
+    .subscribe-form {
+        display: block;
+        align-items: center;
+
+    }
 }
 
 @media only screen and (min-width: 768px) {
     .subscribe-form {
-       
+
         gap: 16px 24px;
 
     }
@@ -1127,11 +1130,11 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
-   .subscribe-form-btn{
-    
-  align-self: center;
-  margin: auto;
-  }
+    .subscribe-form-btn {
+
+        align-self: center;
+        margin: auto;
+    }
 }
 
 .subscribe-form-btn:hover {
